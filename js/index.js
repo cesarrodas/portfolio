@@ -2,9 +2,7 @@
 $(document).ready(function() {
   var page;
   var sectionID2;
-  //animate();
   setBindings();
-  active();
 });
 
 function setBindings() {
@@ -14,11 +12,11 @@ function setBindings() {
       $('.navbar-toggle').click();
     }
     var sectionID = "#page_" + e.currentTarget.id;
-    
+
     $('html, body').animate({
       scrollTop: ($(sectionID).offset().top - 50)
     }, 800)
-    
+
   })
 }
 
@@ -34,7 +32,7 @@ $(window).scroll(function(){
   var page2 = $('#page_2').offset();
   var page3 = $('#page_3').offset();
   var page4 = $('#page_4').offset();
-  
+
   if($(window).scrollTop() >= page1.top - 200) { // 51
     $(".nav").find(".active").removeClass("active");
     $('#home').addClass('active');

@@ -4,7 +4,6 @@ $(document).ready(function() {
   var sectionID2;
   //animate();
   setBindings();
-  active();
 });
 
 function setBindings() {
@@ -14,11 +13,11 @@ function setBindings() {
       $('.navbar-toggle').click();
     }
     var sectionID = "#page_" + e.currentTarget.id;
-    
+
     $('html, body').animate({
       scrollTop: ($(sectionID).offset().top - 50)
     }, 800)
-    
+
   })
 }
 
@@ -28,13 +27,17 @@ function scrolling(toPage){
   }, 800)
 }
 
+function emailHandler(){
+  window.open('mailto:rodascesar03@yahoo.com?subject=hello&body=message');
+}
+
 // Makes the current page active on the navbar.
 $(window).scroll(function(){
   var page1 = $('#page_1').offset();
   var page2 = $('#page_2').offset();
   var page3 = $('#page_3').offset();
   var page4 = $('#page_4').offset();
-  
+
   if($(window).scrollTop() >= page1.top - 200) { // 51
     $(".nav").find(".active").removeClass("active");
     $('#home').addClass('active');
