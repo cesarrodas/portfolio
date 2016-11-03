@@ -5,6 +5,16 @@ html, body{
   padding: 0;
 }
 
+.brand, #home, #about, #portfolio, #contact {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.project-title {
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+	color: #6d5a49;
+}
+
 #page_1 {
   background: #000000 url(https://www.dropbox.com/s/3sach017bg3s1iw/books-wallpaper1.jpg?raw=1) no-repeat 00;
   background-attachment: fixed;
@@ -49,10 +59,10 @@ url(https://www.dropbox.com/s/c2ym2544iwqzt4b/Office-Wallpapers3.jpg?raw=1) no-r
 }
 
 #title {
+  display: inline;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
   font-size: 4.5em;
-  display: inline;
 }
 
 /* Needs to be edited!  */

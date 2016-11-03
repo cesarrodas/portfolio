@@ -2,7 +2,6 @@
 $(document).ready(function() {
   var page;
   var sectionID2;
-  //animate();
   setBindings();
 });
 
@@ -25,10 +24,6 @@ function scrolling(toPage){
   $('html, body').animate({
     scrollTop: ($(toPage).offset().top - 50)
   }, 800)
-}
-
-function emailHandler(){
-  window.open('mailto:rodascesar03@yahoo.com?subject=hello&body=message');
 }
 
 // Makes the current page active on the navbar.
