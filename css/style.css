@@ -59,10 +59,10 @@ url(https://www.dropbox.com/s/c2ym2544iwqzt4b/Office-Wallpapers3.jpg?raw=1) no-r
 }
 
 #title {
+  display: inline;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
   font-size: 4.5em;
-  display: inline;
 }
 
 /* Needs to be edited!  */
