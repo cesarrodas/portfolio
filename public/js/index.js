@@ -26,6 +26,8 @@ function scrolling(toPage){
   }, 800)
 }
 
+
+
 // Makes the current page active on the navbar.
 $(window).scroll(function(){
   var page1 = $('#page_1').offset();
@@ -33,7 +35,7 @@ $(window).scroll(function(){
   var page3 = $('#page_3').offset();
   var page4 = $('#page_4').offset();
 
-  if($(window).scrollTop() >= page1.top - 200) { // 51
+  if($(window).scrollTop() >= page1.top - 200) { // 51$(document).height()*0.5
     $(".nav").find(".active").removeClass("active");
     $('#home').addClass('active');
     page = 1;
