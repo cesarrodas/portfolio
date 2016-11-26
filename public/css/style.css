@@ -48,8 +48,8 @@ url(https://www.dropbox.com/s/c2ym2544iwqzt4b/Office-Wallpapers3.jpg?raw=1) no-r
   background: #111111 url(https://www.dropbox.com/s/kqqj8ii7h3zu24p/office-wallpaper4.jpg?raw=1) no-repeat 00;
   background-position: center;
   background-size: cover;
-  height: auto;
   min-height: 700px;
+  height: auto;
 }
 
 .general-content-wrapper {
@@ -81,8 +81,7 @@ url(https://www.dropbox.com/s/c2ym2544iwqzt4b/Office-Wallpapers3.jpg?raw=1) no-r
 .contact__link {
   width: 100%;
   text-align: center;
-  height: 3rem;
-  margin: 1.5rem auto;
+  margin: 1rem auto;
 }
 
 .banner {
@@ -108,7 +107,6 @@ url(https://www.dropbox.com/s/c2ym2544iwqzt4b/Office-Wallpapers3.jpg?raw=1) no-r
 
 .square1 {
   font-size: 1em;
-  font-weight: bold;
   padding: 30px;
   text-indent: 30px;
   top: 100px;
@@ -116,7 +114,6 @@ url(https://www.dropbox.com/s/c2ym2544iwqzt4b/Office-Wallpapers3.jpg?raw=1) no-r
 
 .square2 {
   font-size: 1em;
-  font-weight: bold;
   left: 20px;
   margin-bottom: 200px;
   padding: 30px;
