@@ -56,20 +56,3 @@ $(window).scroll(function(){
     page = 4;
   }
 })
-
-// original scroll function by Josiah Ruddell on stackoverflow
-// cool scroll function I found.
-/*
-var lastScrollTop = 0;
-$(window).scroll(function(event){
-   if($(document).width() >= 767){
-      var st = $(this).scrollTop();
-      if (st > lastScrollTop){
-      // downscroll code
-      } else if (st < lastScrollTop - 50) {
-      // upscroll code
-      }
-      lastScrollTop = st;
-   }
-});
-*/
