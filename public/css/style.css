@@ -16,7 +16,7 @@ html, body{
 }
 
 #page_1 {
-  background: #000000 url(https://www.dropbox.com/s/3sach017bg3s1iw/books-wallpaper1.jpg?raw=1) no-repeat 00;
+  background: #000000 url(../assets/images/books-wallpaper1.jpg) no-repeat 00;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -27,7 +27,7 @@ html, body{
 }
 
 #page_2 {
-  background: #111111 url(https://www.dropbox.com/s/qj4fb47oisvehn8/Background_2.jpg?raw=1) repeat 00;
+  background: #111111 url(../assets/images/Background_2.jpg) repeat 00;
   background-position: center;
   background-size: cover;
   height: auto;
@@ -36,7 +36,7 @@ html, body{
 
 #page_3 {
   background: #111111
-url(https://www.dropbox.com/s/c2ym2544iwqzt4b/Office-Wallpapers3.jpg?raw=1) no-repeat 00;
+url(../assets/images/Office-Wallpapers3.jpg) no-repeat 00;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -45,7 +45,7 @@ url(https://www.dropbox.com/s/c2ym2544iwqzt4b/Office-Wallpapers3.jpg?raw=1) no-r
 }
 
 #page_4 {
-  background: #111111 url(https://www.dropbox.com/s/kqqj8ii7h3zu24p/office-wallpaper4.jpg?raw=1) no-repeat 00;
+  background: #111111 url(../assets/images/office-wallpaper4.jpg) no-repeat 00;
   background-position: center;
   background-size: cover;
   min-height: 700px;
