@@ -1,4 +1,6 @@
 var express = require('express');
+var favicon = require('serve-favicon');
+var path = require('path');
 
 // Create our app
 var app = express();
@@ -12,6 +14,7 @@ app.use(function(req, res, next){
 	}
 });
 
+app.use(favicon(path.join(__dirname, 'public', 'assets', 'coffee_icon.ico')));
 app.use(express.static('public'));
 
 app.listen(PORT, function() {
